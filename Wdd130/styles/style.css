@@ -1,0 +1,109 @@
+#content-container {
+    max-width: 1600px; /* Adjust the max-width value to your preference */
+    margin: 0 auto; /* This centers the container */
+}
+
+/* Center the text within navigation links */
+nav a {
+    text-align: center;
+}
+
+/* Center the text within h1 and h4 elements inside #hero-msg */
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+/* Center the text within elements with class .button-box */
+.button-box {
+    text-align: center;
+}
+
+/* Center the text within sections inside the main element */
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+/* Set background color for body */
+body {
+    background-color: cornsilk; /* Example color, you can replace it with your preferred color */
+}
+
+/* Set background color for header */
+header {
+    background-color: #333; /* Example color, you can replace it with your preferred color */
+}
+
+/* Set background color for navigation links on hover */
+nav a:hover {
+    background-color: #555; /* Example color, you can replace it with your preferred color */
+}
+
+/* Set background color for elements with class .book and .join */
+.book, .join {
+    background-color: #ccc; /* Example color, you can replace it with your preferred color */
+}
+
+/* Set background color for elements with class .book and .join on hover */
+.book:hover, .join:hover {
+    background-color: #999; /* Example color, you can replace it with your preferred color */
+}
+
+/* Set background color for div with id #background */
+#background {
+    background-color: #ddd; /* Example color, you can replace it with your preferred color */
+}
+
+/* Set background color for elements with class .msg */
+.msg {
+    background-color: #fff; /* Example color, you can replace it with your preferred color */
+}
+
+/* Set background color for footer */
+footer {
+    background-color: #333; /* Example color, you can replace it with your preferred color */
+}
+
+/* Set width to the logo */
+.logo {
+    width: 80px;
+}
+
+/* Set width to all icons associated with cards */
+.icon {
+    width: 80px;
+}
+
+/* Make the hero image responsive */
+#hero-img {
+    width: 100%;
+}
+/* Remove underline from navigation links */
+nav a {
+    text-decoration: none;
+}
+
+/* Remove underline from elements with classes .book and .join */
+.book, .join {
+    text-decoration: none;
+}
+
+/* Remove underline from footer links */
+footer a {
+    text-decoration: none;
+}
+
+/* Add underline on hover for all links */
+nav a:hover, .book:hover, .join:hover, footer a:hover {
+    text-decoration: underline;
+}
+footer {
+    font-size: 1.2em; /* Adjust the value to your preference */
+}
+footer p a:hover {
+    text-decoration: underline;
+}
